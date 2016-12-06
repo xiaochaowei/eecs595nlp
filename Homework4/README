@@ -1,0 +1,190 @@
+PartA
+3)
+IBM Model 1
+---------------------------
+Average AER: 0.665
+
+IBM Model 2
+---------------------------
+Average AER: 0.650
+
+Ex:
+words: [u'Ich', u'bitte', u'Sie', u',', u'sich', u'zu', u'einer', u'Schweigeminute', u'zu', u'erheben', u'.']
+mots: [u'Please', u'rise', u',', u'then', u',', u'for', u'this', u'minute', u"'", u's', u'silence', u'.']
+ground_truth:
+0-0 1-0 2-0 3-4 4-1 5-5 6-6 7-7 7-8 7-9 7-10 8-10 9-10 10-11
+ibm1 Model:
+ 0-1 1-1 2-1 3-4 4-10 5-10 6-10 7-10 8-10 9-1 
+ibm2 Models:
+0-0 1-1 2-0 3-2 4-10 5-10 6-10 7-7 8-10 9-0
+
+'Ich' 'Site' are both aligned to 'Please', however, ibm2 consider the location information rather than ibm1 only consider the freqency information. where 0->0, 2->0 is higher. So IBM2 works better.
+
+4)
+The reasonable number of iteratins for IBM1 is 6, for IBM2 is 4,which have lowest error_rate, and run in a reasonable time. When the iteration number increase, the aer will decrease at first to local minimal point and then increase a little bit. Due to the time limit, I only test 30 iterations. The result shows as follows(the code is in 06.py):
+
+num 1
+ibm1:  0.872520849024
+time 0.0211551189423
+ibm2:  0.645983362577
+time: 33.5267140865
+num 2
+ibm1:  0.684046777266
+time 0.0221018791199
+ibm2:  0.644453480792
+time: 41.2989730835
+num 3
+ibm1:  0.640614166931
+time 0.0225579738617
+ibm2:  0.643808962772
+time: 49.6850070953
+num 4
+ibm1:  0.629575865568
+time 0.022369146347
+ibm2:  0.64216348645
+time: 55.5658619404
+num 5
+ibm1:  0.627253259011
+time 0.0223169326782
+ibm2:  0.644393025633
+time: 62.7246170044
+num 6
+ibm1:  0.626089260219
+time 0.0223670005798
+ibm2:  0.647138590803
+time: 70.9352719784
+num 7
+ibm1:  0.629007032103
+time 0.0223820209503
+ibm2:  0.646433462598
+time: 76.9075391293
+num 8
+ibm1:  0.631475726199
+time 0.022274017334
+ibm2:  0.649340967883
+time: 81.9675750732
+num 9
+ibm1:  0.627740663512
+time 0.0229070186615
+ibm2:  0.648613695156
+time: 88.8135249615
+num 10
+ibm1:  0.665046616608
+time 0.0211970806122
+ibm2:  0.650340967883
+time: 82.6388568878
+num 11
+ibm1:  0.665671616608
+time 0.0221149921417
+ibm2:  0.648674301216
+time: 96.9979000092
+num 12
+ibm1:  0.665671616608
+time 0.0227041244507
+ibm2:  0.650389597414
+time: 104.909749031
+num 13
+ibm1:  0.666296616608
+time 0.0224709510803
+ibm2:  0.651532454557
+time: 113.884763002
+num 14
+ibm1:  0.6645601825
+time 0.0223939418793
+ibm2:  0.651532454557
+time: 119.920136213
+num 15
+ibm1:  0.6645601825
+time 0.0225131511688
+ibm2:  0.649865787891
+time: 130.55250001
+num 16
+ibm1:  0.6645601825
+time 0.0223548412323
+ibm2:  0.649865787891
+time: 133.11473918
+num 17
+ibm1:  0.661893515833
+time 0.0223679542542
+ibm2:  0.650699121224
+time: 142.004522085
+num 18
+ibm1:  0.660514205488
+time 0.022360086441
+ibm2:  0.650699121224
+time: 148.670763016
+num 19
+ibm1:  0.660514205488
+time 0.0223820209503
+ibm2:  0.650699121224
+time: 153.985935926
+num 20
+ibm1:  0.660514205488
+time 0.0221610069275
+ibm2:  0.648032454557
+time: 158.761291981
+num 21
+ibm1:  0.65908563406
+time 0.0225081443787
+ibm2:  0.648032454557
+time: 168.25543499
+num 22
+ibm1:  0.65908563406
+time 0.025573015213
+ibm2:  0.648032454557
+time: 171.581525087
+num 23
+ibm1:  0.65908563406
+time 0.0219888687134
+ibm2:  0.648032454557
+time: 171.084128141
+num 24
+ibm1:  0.65908563406
+time 0.0218479633331
+ibm2:  0.64872210973
+time: 170.962320089
+num 25
+ibm1:  0.659854864829
+time 0.0214819908142
+ibm2:  0.64872210973
+time: 172.578258038
+num 26
+ibm1:  0.659854864829
+time 0.021625995636
+ibm2:  0.64872210973
+time: 174.269149065
+num 27
+ibm1:  0.659854864829
+time 0.0215430259705
+ibm2:  0.64872210973
+time: 181.003452778
+num 28
+ibm1:  0.659854864829
+time 0.021192073822
+ibm2:  0.64872210973
+time: 183.649328947
+num 29
+ibm1:  0.660451879754
+time 0.0211541652679
+ibm2:  0.64872210973
+time: 189.142295837
+
+PartB
+4. 
+Berkeley Aligner
+---------------------------
+Average AER: 0.543
+
+words: [u'All', u'dies', u'entspricht', u'den', u'Grunds\xe4tzen', u',', u'die', u'wir', u'stets', u'verteidigt', u'haben', u'.']
+mots: [u'This', u'is', u'all', u'in', u'accordance', u'with', u'the', u'principles', u'that', u'we', u'have', u'always', u'upheld', u'.']
+
+
+Ground_truth:
+0-2 1-0 2-1 2-3 2-4 2-5 3-6 4-7 5-8 6-8 7-9 8-11 9-12 10-10 11-13 
+BerkeleyAligner:
+0-0 0-5 1-1 2-2 4-4 5-8 6-6 7-9 8-3 8-7 8-11 9-12 10-10 11-13 
+imb2:
+0-12 1-4 2-7 3-4 4-12 5-10 6-10 7-9 8-7 9-12 10-7 
+
+For example, in this example, The number10 'haben' is aligned to 'have'. However in ibm model2, it aligned to 'principles', which means 10-7 has higher probability. However, if BerkeleyAligner consider both side, so the 'principles' translates to 'haben' is lower, which contributes to the fact that it aligned to 'have' rather than 'principles' due to the fact that the probability of 'have' -> 'haben' is higher. So combine both information can improve the perfermance. 
+

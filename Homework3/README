@@ -1,0 +1,128 @@
+epoch: 0 batch: 0 cost: 99.6541766281 time: 14.9255259037
+epoch: 0 batch: 1 cost: 95.0307514344 time: 16.2185490131
+epoch: 0 batch: 2 cost: 90.2739917794 time: 16.7543609142
+epoch: 0 batch: 3 cost: 90.163151574 time: 19.5817461014
+epoch: 0 batch: 4 cost: 109.718442111 time: 25.0391421318
+epoch: 0 batch: 5 cost: 117.631604543 time: 31.1155409813
+epoch: 0 batch: 6 cost: 98.6964961817 time: 30.8416531086
+epoch: 0 batch: 7 cost: 89.0748442406 time: 24.1692919731
+epoch: 0 batch: 8 cost: 88.5862918139 time: 29.8830749989
+epoch: 0 batch: 9 cost: 79.174998434 time: 29.8841369152
+epoch: 0 batch: 10 cost: 93.7740070639 time: 30.6769030094
+done with epoch 0, epoch cost = 2488.46854222
+train acc = 0.35, val acc = 0.108050847458
+
+epoch: 10 batch: 0 cost: 30.1295968733 time: 16.3158841133
+epoch: 10 batch: 1 cost: 24.5783342512 time: 16.8600389957
+epoch: 10 batch: 2 cost: 27.3518617244 time: 16.2343530655
+epoch: 10 batch: 3 cost: 28.9386973203 time: 15.6873459816
+epoch: 10 batch: 4 cost: 39.9472675208 time: 14.7181820869
+epoch: 10 batch: 5 cost: 41.054576509 time: 16.4252290726
+epoch: 10 batch: 6 cost: 33.5795096168 time: 17.0027799606
+epoch: 10 batch: 7 cost: 33.5233078221 time: 14.4883470535
+epoch: 10 batch: 8 cost: 42.0777886606 time: 16.9499161243
+epoch: 10 batch: 9 cost: 37.836592212 time: 15.5714871883
+epoch: 10 batch: 10 cost: 34.5279305054 time: 15.9262750149
+done with epoch 10, epoch cost = 893.494565298
+train acc = 0.981120943953, val acc = 0.358050847458
+epoch: 29 batch: 0 cost: 20.0037373264 time: 44.0443890095
+epoch: 29 batch: 1 cost: 21.91183735 time: 45.5898170471
+epoch: 29 batch: 2 cost: 25.0970663515 time: 46.3467450142
+epoch: 29 batch: 3 cost: 22.1690397502 time: 45.7862780094
+epoch: 29 batch: 4 cost: 24.7670239567 time: 44.5405211449
+epoch: 29 batch: 5 cost: 24.5414459892 time: 46.740737915
+epoch: 29 batch: 6 cost: 21.8143523059 time: 48.0899150372
+epoch: 29 batch: 7 cost: 23.4436377958 time: 41.8169550896
+epoch: 29 batch: 8 cost: 27.4130777477 time: 45.092924118
+epoch: 29 batch: 9 cost: 26.8691000076 time: 44.5063550472
+epoch: 29 batch: 10 cost: 23.8461493619 time: 44.9633011818
+done with epoch 29, epoch cost = 616.513856394
+train acc = 0.998820058997, val acc = 0.404661016949
+
+5 part a
+epoch: 0 batch: 0 cost: 99.6356555503 time: 44.7742369175
+epoch: 0 batch: 1 cost: 92.183680762 time: 48.3091371059
+epoch: 0 batch: 2 cost: 83.9548017139 time: 49.7620379925
+epoch: 0 batch: 3 cost: 78.6284641784 time: 50.2296230793
+epoch: 0 batch: 4 cost: 121.941436748 time: 47.0344569683
+epoch: 0 batch: 5 cost: 119.51152096 time: 49.8350961208
+epoch: 0 batch: 6 cost: 95.3209697549 time: 50.7718441486
+epoch: 0 batch: 7 cost: 83.164954492 time: 44.1864769459
+epoch: 0 batch: 8 cost: 86.0515374289 time: 47.9860520363
+epoch: 0 batch: 9 cost: 73.4806658853 time: 47.3880021572
+epoch: 0 batch: 10 cost: 85.4160776332 time: 48.9269299507
+done with epoch 0, epoch cost = 2242.32906938
+train acc = 0.302359882006, val acc = 0.0974576271186
+
+epoch: 10 batch: 0 cost: 34.0535910232 time: 43.0901639462
+epoch: 10 batch: 1 cost: 28.3721163585 time: 45.2799940109
+epoch: 10 batch: 2 cost: 29.9572939545 time: 49.9057710171
+epoch: 10 batch: 3 cost: 28.1933001537 time: 45.9952640533
+epoch: 10 batch: 4 cost: 40.101168754 time: 45.538020134
+epoch: 10 batch: 5 cost: 42.2957801205 time: 47.5962479115
+epoch: 10 batch: 6 cost: 35.2459264604 time: 46.9183409214
+epoch: 10 batch: 7 cost: 35.7855309984 time: 42.2782299519
+epoch: 10 batch: 8 cost: 42.3204434326 time: 45.53748703
+epoch: 10 batch: 9 cost: 38.083173209 time: 44.7906429768
+epoch: 10 batch: 10 cost: 34.9018036961 time: 45.1191129684
+done with epoch 10, epoch cost = 940.127164129
+train acc = 0.931563421829, val acc = 0.315677966102
+
+epoch: 29 batch: 0 cost: 20.7772297917 time: 14.6306340694
+epoch: 29 batch: 1 cost: 22.55849316 time: 15.6667079926
+epoch: 29 batch: 2 cost: 26.1168560923 time: 16.2813401222
+epoch: 29 batch: 3 cost: 23.2894286413 time: 15.8743259907
+epoch: 29 batch: 4 cost: 26.0898300667 time: 14.6563241482
+epoch: 29 batch: 5 cost: 25.0444695919 time: 15.7236149311
+epoch: 29 batch: 6 cost: 22.4316549138 time: 16.1512229443
+epoch: 29 batch: 7 cost: 23.6696502757 time: 14.3168311119
+epoch: 29 batch: 8 cost: 27.2360328356 time: 15.6664848328
+epoch: 29 batch: 9 cost: 26.2721436669 time: 15.3371241093
+epoch: 29 batch: 10 cost: 23.8357443651 time: 15.7355020046
+done with epoch 29, epoch cost = 630.337579186
+train acc = 0.995722713864, val acc = 0.419491525424
+
+5. partb
+epoch: 0 batch: 0 cost: 99.6251896096 time: 21.0117719173
+epoch: 0 batch: 1 cost: 93.2410124328 time: 30.0165169239
+epoch: 0 batch: 2 cost: 90.5038324534 time: 43.2237010002
+epoch: 0 batch: 3 cost: 88.888501087 time: 38.8061950207
+epoch: 0 batch: 4 cost: 103.929581126 time: 36.6861641407
+epoch: 0 batch: 5 cost: 102.62385408 time: 39.4904699326
+epoch: 0 batch: 6 cost: 98.3399528557 time: 39.3706669807
+epoch: 0 batch: 7 cost: 95.7747422527 time: 33.3218569756
+epoch: 0 batch: 8 cost: 101.096804849 time: 36.294303894
+epoch: 0 batch: 9 cost: 95.3572414525 time: 37.775331974
+epoch: 0 batch: 10 cost: 95.075325297 time: 39.4376280308
+done with epoch 0, epoch cost = 2451.24293217
+train acc = 0.243067846608, val acc = 0.101694915254
+
+epoch: 10 batch: 1 cost: 86.6397908047 time: 36.6401529312
+epoch: 10 batch: 2 cost: 86.5909531594 time: 36.759401083
+epoch: 10 batch: 3 cost: 84.5397866732 time: 35.5528249741
+epoch: 10 batch: 4 cost: 85.9466697029 time: 34.5194618702
+epoch: 10 batch: 5 cost: 85.2509769098 time: 36.6365139484
+epoch: 10 batch: 6 cost: 84.7805044092 time: 39.2049820423
+epoch: 10 batch: 7 cost: 80.6809025174 time: 35.3455848694
+epoch: 10 batch: 8 cost: 88.0678826275 time: 37.6796209812
+epoch: 10 batch: 9 cost: 85.9113453116 time: 34.3244309425
+epoch: 10 batch: 10 cost: 86.6834323351 time: 37.7659819126
+done with epoch 10, epoch cost = 2171.93091011
+train acc = 0.35796460177, val acc = 0.152542372881
+
+epoch: 29 batch: 0 cost: 78.6991657616 time: 20.9170029163
+epoch: 29 batch: 1 cost: 82.6609021404 time: 22.7852900028
+epoch: 29 batch: 2 cost: 83.8800204948 time: 24.02779603
+epoch: 29 batch: 3 cost: 81.527735061 time: 23.0636069775
+epoch: 29 batch: 4 cost: 78.3705970729 time: 21.9120490551
+epoch: 29 batch: 5 cost: 78.258896691 time: 23.6096110344
+epoch: 29 batch: 6 cost: 78.9602127883 time: 24.181524992
+epoch: 29 batch: 7 cost: 74.4596047353 time: 21.0678119659
+epoch: 29 batch: 8 cost: 81.3680549219 time: 23.57239604
+epoch: 29 batch: 9 cost: 80.3672895566 time: 23.2211198807
+epoch: 29 batch: 10 cost: 82.2426119953 time: 23.6079540253
+done with epoch 29, epoch cost = 2031.04860713
+train acc = 0.508849557522, val acc = 0.165254237288
+
+
+
